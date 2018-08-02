@@ -6,4 +6,8 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+    <string name="todo">TODO</string>
+    <string name="_2030_ndp_hackathon">2030 NDP_Hackathon</string>
+    <string name="sqs_com">sqs.com</string>
+
 </resources>
