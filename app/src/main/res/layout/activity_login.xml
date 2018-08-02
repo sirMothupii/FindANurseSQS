@@ -25,6 +25,8 @@
         android:hint="User Name"
         android:inputType="textPersonName"
         android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textColorHint="@color/colorAccent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -43,7 +45,7 @@
     <ImageView
         android:id="@+id/imgLogo"
         android:layout_width="388dp"
-        android:layout_height="251dp"
+        android:layout_height="230dp"
         android:scaleType="fitXY"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -62,6 +64,8 @@
         android:hint="Password"
         android:inputType="textPassword"
         android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textColorHint="@color/colorAccent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -76,10 +80,12 @@
         android:background="#f9d7db" />
 
     <CheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="144dp"
+        android:layout_height="34dp"
         android:text="Remember me "
-        android:textColor="#fff"
+        android:textColor="@color/colorAccent"
+        android:textColorHint="@color/colorAccent"
+        android:textCursorDrawable="@color/colorAccent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.062"
@@ -104,8 +110,8 @@
 
     <TextView
         android:id="@+id/txtWebLinkRegister"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="242dp"
+        android:layout_height="24dp"
         android:layout_marginBottom="16dp"
         android:autoLink="web"
         android:onClick="onClickRegister"

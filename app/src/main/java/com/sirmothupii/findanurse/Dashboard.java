@@ -1,5 +1,6 @@
 package com.sirmothupii.findanurse;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -102,7 +103,7 @@ public class Dashboard extends AppCompatActivity
         }
         else if (id == R.id.nav_maps)
         {
-
+            startActivity(new Intent(this, Maps.class));
         }
         else if (id == R.id.nav_manage)
         {

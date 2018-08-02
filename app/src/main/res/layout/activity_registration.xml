@@ -12,6 +12,7 @@
         android:layout_height="wrap_content"
         android:text="Register"
         android:textAlignment="center"
+        android:textColor="@color/colorAccent"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -23,16 +24,15 @@
         tools:ignore="HardcodedText,MissingConstraints" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/imageView"
         android:layout_width="wrap_content"
-        android:layout_height="204dp"
-        android:scaleType="fitCenter"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_height="166dp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextFullNames"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.156" />
+        app:layout_constraintTop_toBottomOf="@+id/txtRegister"
+        app:srcCompat="@drawable/reg" />
 
     <Button
         android:id="@+id/btnSubmit"
@@ -57,13 +57,15 @@
         android:hint="Full Names"
         android:inputType="textPersonName"
         android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textColorHint="@color/colorAccent"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.535"
+        app:layout_constraintVertical_bias="0.537"
         tools:ignore="HardcodedText,LabelFor,MissingConstraints" />
 
     <EditText
@@ -74,6 +76,8 @@
         android:hint="Email"
         android:inputType=""
         android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textColorHint="@color/colorAccent"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -91,6 +95,8 @@
         android:hint="Phone"
         android:inputType=""
         android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textColorHint="@color/colorAccent"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -108,13 +114,16 @@
         android:hint="Confirm Password"
         android:inputType="textPassword"
         android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textColorHint="@color/colorAccent"
         android:textColorLink="@android:color/holo_blue_dark"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/btnSubmit"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextPassword"
-        app:layout_constraintVertical_bias="0.96"
+        app:layout_constraintVertical_bias="0.0"
         tools:ignore="HardcodedText,LabelFor,MissingConstraints" />
 
     <EditText
@@ -125,6 +134,8 @@
         android:hint="Password"
         android:inputType="textPassword"
         android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textColorHint="@color/colorAccent"
         android:textColorLink="@android:color/holo_blue_dark"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
