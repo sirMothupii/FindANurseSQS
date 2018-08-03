@@ -105,10 +105,7 @@ public class Dashboard extends AppCompatActivity
         {
             startActivity(new Intent(this, Maps.class));
         }
-        else if (id == R.id.nav_manage)
-        {
 
-        }
         else if (id == R.id.nav_notification)
         {
 

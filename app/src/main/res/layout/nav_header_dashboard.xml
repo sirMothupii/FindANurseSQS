@@ -14,30 +14,29 @@
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
 
     <ImageView
-        android:id="@+id/sqslogo"
-        android:layout_width="98dp"
-        android:layout_height="79dp"
-        android:contentDescription="@string/todo"
-        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:id="@+id/imageView2"
+        android:layout_width="103dp"
+        android:layout_height="92dp"
+        android:scaleType="fitXY"
         app:layout_constraintBottom_toTopOf="@+id/textView2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.056"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.666"
+        app:layout_constraintVertical_bias="0.842"
         app:srcCompat="@drawable/sqslogo"
-        tools:ignore="MissingConstraints" />
+        android:contentDescription="@string/todo" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="165dp"
         android:layout_height="23dp"
-        android:text="2030 NDP Hackathon"
+        android:text="@string/_2030ndphackathon"
         app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.073"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/sqslogo"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -45,11 +44,10 @@
         android:layout_width="66dp"
         android:layout_height="25dp"
         android:text="@string/sqs_com"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.003"
+        app:layout_constraintHorizontal_bias="0.05"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="126dp" />
 
 </android.support.constraint.ConstraintLayout>
