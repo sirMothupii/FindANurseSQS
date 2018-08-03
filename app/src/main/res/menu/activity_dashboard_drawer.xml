@@ -6,15 +6,19 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_findanurse"
-            android:icon="@drawable/nurseicon"
+            android:icon="@drawable/mynurse"
             android:title="Find A Nurse" />
         <item
             android:id="@+id/nav_sendrequest"
             android:icon="@drawable/ic_menu_send"
             android:title="Send Request" />
         <item
+            android:id="@+id/nav_stats"
+            android:icon="@drawable/statisticss"
+            android:title="Statistics" />
+        <item
             android:id="@+id/nav_maps"
-            android:icon="@drawable/journey_planner_icon"
+            android:icon="@drawable/maps"
             android:title="Maps" />
         <item
             android:id="@+id/nav_manage"

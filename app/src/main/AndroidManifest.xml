@@ -29,7 +29,8 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Maps" />
         <activity android:name=".Notifications" />
-        <activity android:name=".Statistics"></activity>
+        <activity android:name=".Statistics" />
+        <activity android:name=".NurseRegistrations" />
     </application>
 
 </manifest>
