@@ -32,7 +32,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtRegister"
-        app:srcCompat="@drawable/reg" />
+        app:srcCompat="@drawable/registerednurs" />
 
     <Button
         android:id="@+id/btnSubmit"

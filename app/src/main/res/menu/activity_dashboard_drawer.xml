@@ -6,7 +6,7 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_findanurse"
-            android:icon="@drawable/mynurse"
+            android:icon="@drawable/nurseicon"
             android:title="Find A Nurse" />
         <item
             android:id="@+id/nav_sendrequest"
@@ -14,7 +14,7 @@
             android:title="Send Request" />
         <item
             android:id="@+id/nav_stats"
-            android:icon="@drawable/statisticss"
+            android:icon="@drawable/stats"
             android:title="Statistics" />
         <item
             android:id="@+id/nav_maps"
