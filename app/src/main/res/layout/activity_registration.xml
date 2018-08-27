@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bckgrngimg"
     tools:context="com.sirmothupii.findanurse.Registration">
 
     <TextView
@@ -12,7 +13,7 @@
         android:layout_height="wrap_content"
         android:text="Register"
         android:textAlignment="center"
-        android:textColor="@color/colorAccent"
+        android:textColor="@android:color/background_light"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -23,24 +24,14 @@
         app:layout_constraintVertical_bias="0.033"
         tools:ignore="HardcodedText,MissingConstraints" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="166dp"
-        app:layout_constraintBottom_toTopOf="@+id/editTextFullNames"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtRegister"
-        app:srcCompat="@drawable/reg" />
-
     <Button
-        android:id="@+id/btnSubmit"
+        android:id="@+id/submitBtn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:background="@drawable/button_background"
         android:onClick="onClickSubmit"
         android:text="Submit"
+        android:textColor="@android:color/background_light"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
